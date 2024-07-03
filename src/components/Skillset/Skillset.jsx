@@ -13,6 +13,9 @@ import react from '../../images/react.png'
 import php from '../../images/php.png'
 import mysql from '../../images/mysql.png'
 import wordpress from '../../images/wordpress.png'
+import nodejs from '../../images/nodejs.png'
+import expressjs from '../../images/express-js.png'
+import mongodb from '../../images/mongodb.png'
 
 const Skillset = () => {
     return (
@@ -31,56 +34,55 @@ const Skillset = () => {
                     <Col data-aos="flip-left">
                         <div className={style.cardIcon}>
                             <img src={html5} alt="" />
-                            <p className={style.iconPara}>95%</p>
+                            {/* <p className={style.iconPara}>95%</p> */}
                         </div>
                        <p className={style.iconName}>HTML5</p>
                     </Col>
                     <Col data-aos="flip-left">
                         <div className={style.cardIcon}>
                             <img src={css3} alt="" />
-                            <p className={style.iconPara}>87%</p>
                         </div>
                         <p className={style.iconName}>CSS3</p>
                     </Col>
                     <Col data-aos="flip-left">
                         <div className={style.cardIcon}>
                             <img src={bootstrap} alt="" />
-                            <p className={style.iconPara}>90%</p>
                         </div>
                         <p className={style.iconName}>Bootstrap</p>
                     </Col>
                     <Col data-aos="flip-left">
                         <div className={style.cardIcon}>
                             <img src={js} alt="" />
-                            <p className={style.iconPara}>73%</p>
                         </div>
                         <p className={style.iconName}>Javascript</p>
                     </Col>
                     <Col data-aos="flip-left">
                         <div className={style.cardIcon}>
                             <img src={react} alt="" />
-                            <p className={style.iconPara}>85%</p>
                         </div>
                         <p className={style.iconName}>React</p>
                     </Col>
                     <Col data-aos="flip-left">
                         <div className={style.cardIcon}>
-                            <img src={php} alt="" />
-                            <p className={style.iconPara}>76%</p>
+                            <img src={nodejs} alt="" />
                         </div>
-                        <p className={style.iconName}>PHP</p>
+                        <p className={style.iconName}>NodeJS</p>
                     </Col>
                     <Col data-aos="flip-left">
                         <div className={style.cardIcon}>
-                            <img src={mysql} alt="" />
-                            <p className={style.iconPara}>74%</p>
+                            <img src={expressjs} alt="" />
                         </div>
-                        <p className={style.iconName}>MySQL</p>
+                        <p className={style.iconName}>ExpressJS</p>
+                    </Col>
+                    <Col data-aos="flip-left">
+                        <div className={style.cardIcon}>
+                            <img src={mongodb} alt="" />
+                        </div>
+                        <p className={style.iconName}>MongoDB</p>
                     </Col>
                     <Col data-aos="flip-left">
                         <div className={style.cardIcon}>
                             <img src={wordpress} alt="" />
-                            <p className={style.iconPara}>90%</p>
                         </div>
                         <p className={style.iconName}>Wordpress</p>
                     </Col>

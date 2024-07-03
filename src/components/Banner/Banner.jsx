@@ -19,7 +19,7 @@ import reactimage from '../../images/react.png'
 
 const Banner = () => {
     const [typeEffect] = useTypewriter({
-        words: ['Full Stack Web Developer', 'Wordpress Expert', 'Web Designer'],
+        words: ['Full Stack Web Developer', 'Mern Stack Developer', 'Wordpress Expert'],
         loop: {},
         typeSpeed: 100,
         deleteSpeed: 40,
